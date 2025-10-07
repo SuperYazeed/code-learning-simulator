@@ -1,0 +1,16 @@
+{
+  "appId": "com.codelearning.app",
+  "appName": "Code Learning Simulator",
+  "webDir": "out",
+  "server": {
+    "androidScheme": "https",
+    "hostname": "app.codelearning.local"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "buildOptions": {
+      "keystorePath": "android/my-release-key.keystore",
+      "keystoreAlias": "my-key-alias"
+    }
+  }
+}
